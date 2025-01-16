@@ -1,0 +1,15 @@
+{%- assign name = include.name -%}
+{%- assign image = include.image -%}
+{%- assign image-folder = include.image-folder -%}
+{%- assign icon = include.icon -%}
+{%- assign title = include.title -%}
+
+{% if image %}
+    <img src="{{image-folder}}{{image}}.{{include.image-extension}}" alt="{{name}} image" title="{{title}}" />
+{% else %}
+    <img src="/assets/icons/{{icon}}.{{include.image-extension}}" alt="{{name}} icon" title="{{title}}" />
+{% endif %}
+
+{%- if title -%}
+<p>{{ title }}</p>
+{%- endif -%}

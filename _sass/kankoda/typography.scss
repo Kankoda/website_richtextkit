@@ -1,0 +1,46 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+}
+
+header {
+  font-size: 0.8em;
+}
+
+a, a:visited {
+  font-weight: bold;
+}
+
+a.back-button, a.back-button:visited {
+  font-weight: normal;
+}
+
+h1 {
+  line-height: 1.2em;
+  font-weight: 700;
+  font-size: 2.5em !important;
+}
+
+h2 {
+  font-size: 1.6em !important;
+}
+
+h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+footer {
+  font-size: 0.8em;
+}
+
+.emoji-h1 {
+  font-size: 10em !important;
+}
+
+.emoji-h2 {
+  font-size: 3em !important;
+}
+
+blockquote {
+  font-size: 1.05em;
+}

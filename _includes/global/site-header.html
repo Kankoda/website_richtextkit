@@ -1,0 +1,25 @@
+<header class="site-header {{ include.class }}" role="banner">
+  <div class="wrapper">
+    {% if site.header_axis == "vertical" %}
+    <div class="center-content">
+      <p>
+        {% include kankoda/global/site-header-logo.html %}
+      </p>
+      {% include kankoda/global/site-header-links.html %}
+    </div>
+    {% else %}  
+    <div class="row">
+      <div class="column">
+        {% include kankoda/global/site-header-logo.html %}
+      </div>
+      <div class="column">
+        {% include kankoda/global/site-header-links.html %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+  
+  {% if include.class | contains:"paper" %}
+  <hr class="wrapper" />
+  {% endif %}
+</header>

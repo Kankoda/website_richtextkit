@@ -1,0 +1,38 @@
+.home {
+
+  section {
+
+    article {
+      text-align: left;
+    }
+
+    .grid {
+      margin-top: 30px !important;
+    }
+
+    .grid.blog {
+      h2 {
+        margin-top: 0px;
+      }
+    }
+
+    .blog {
+      h2 {
+        font-size: 1.2em;
+      }
+    }
+  }
+
+  .avatar + .social-buttons {
+    p {
+      margin-top: -10px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .social-buttons {
+    img { 
+      box-shadow: none;
+    }
+  }
+}

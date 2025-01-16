@@ -1,0 +1,52 @@
+.tag, .tag:visited {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 0.5em;
+  padding: 1px 9px 2px 9px;
+  border-radius: 1em;
+  background-color: $tag-background;
+  border: $tag-border;
+  color: $tag-foreground !important;
+  font-weight: normal;
+}
+
+.tag:hover {
+  background-color: $tag-hover;
+  color: $tag-foreground;
+}
+
+.tag.pro {
+  color: black !important;
+  background-color: #ffcc00;
+  border: solid 1px #ddaa00;
+}
+
+.tag.releases {
+  color: black !important;
+  background-color: white;
+  border: solid 1px #aaa;
+}
+
+.tag.swift {
+  background-color: $swift-color;
+  border: solid 1px $swift-color;
+}
+
+.tag.swiftui {
+  background-color: $swiftui-color;
+  border: solid 1px $swiftui-color;
+}
+
+section.tag-list {
+  margin-left: -4px;
+  
+  .tag {
+    font-size: small; 
+    margin-bottom: 5px;
+  }
+}
+
+.tag-list-toggle {
+  font-size: small;
+  display: inline-block;
+}

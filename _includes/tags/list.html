@@ -1,0 +1,20 @@
+{% assign tags = (include.tags | sort:0) %}
+{% assign firstmost = (include.firstmost | split: ",") %}
+
+<section class="tag-list">
+  <a class="tag all" href="javascript:showAllTags()">
+    show all
+  </a>
+  ·&nbsp;
+  {% for tag in firstmost %}
+    {% include kankoda/tags/tag.html name=tag %}
+  {% endfor %}
+  ·&nbsp;
+  {% for tag in tags %}
+    {% assign name = tag | first | slugify %}
+    {% if firstmost contains name %}
+    {% else %}
+      {% include kankoda/tags/tag.html name=name %}
+    {% endif %}
+  {% endfor %}
+</section>

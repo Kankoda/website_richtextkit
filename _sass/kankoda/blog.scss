@@ -1,0 +1,22 @@
+.blog {
+
+  .list {
+    margin-top: 50px;
+  }
+}
+
+article.post .grid {
+  margin: 40px 0px !important;
+}
+
+.post-info {
+
+  font-size: smaller; 
+  color: $foreground-secondary !important;
+  
+  .tags {
+    .tag {
+      font-size: smaller; 
+    }
+  }
+}

@@ -1,0 +1,46 @@
+$site-background: #e3e4e8;
+$site-border: #ddd;
+$content-background: #fafafa;
+$quote-background: #f9f9f9;
+$footer-background: clear;
+
+$texture: transparent;
+$texture-size: 350px;
+$texture-overlay: transparent;
+
+$foreground: black;
+$foreground-contrast: white;
+$foreground-secondary: #666;
+$foreground-tertiary: #888;
+$shadow: #00000065;
+
+$link: black;
+$link-hover: #888;
+
+$cta-background: $foreground;
+$cta-foreground: $foreground-contrast;
+
+$button-group-border: $site-border;
+$button-group-background: #f3f3f9;
+$button-group-selected-background: white;
+$button-group-selected-foreground: black;
+
+$code-background: #e9e9e9;
+$code-foreground: black;
+$code-border: #ccc;
+
+$code-block-background: #112;
+$code-block-foreground: white;
+
+$feature-table-border-color: $site-border;
+$feature-table-background: white;
+$feature-table-even-row-color: #f7f7f7;
+$feature-table-shadow-color: transparent;
+
+$tag-background: black;
+$tag-foreground: white;
+$tag-hover: #223;
+$tag-border: solid 1px black;
+
+$swift-color: #E44D35;
+$swiftui-color: #004080;

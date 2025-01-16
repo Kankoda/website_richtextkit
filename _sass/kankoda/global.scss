@@ -1,0 +1,46 @@
+html, body {
+  color: $foreground;
+  background: linear-gradient($texture-overlay, $texture-overlay), $site-background;
+  background-size: $texture-size;
+  width: 100%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+a, .scale {
+  transition: all 150ms ease-in-out, color 1s ease-out 50ms !important;
+}
+
+a, a:visited {
+  color: $link;
+}
+
+a:hover, a:visited:hover {
+  color: $link-hover;
+}
+
+blockquote {
+  color: $foreground !important;
+  background: $quote-background;
+  border-left: 10px solid $site-background;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+blockquote p {
+  display: inline;
+}
+
+.home, .center-content {
+  text-align: center;
+}
+
+.page-content {
+  background-color: $content-background;
+}
+
+.wrapper {
+  max-width: 900px;
+}
