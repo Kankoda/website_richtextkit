@@ -1,0 +1,14 @@
+- name: Core
+  cta: Check it out
+  url: https://github.com/kankoda/richtextkit
+
+- name: Pro
+  price_month: 150
+  price_year: 1500
+  cta: Sign Up
+  url: https://...
+
+- name: Custom
+  cta: Contact Us
+  subtitle: Let's talk
+  url: mailto:info@richtextkit.com?subject=RichTextKit%20Pro%20-Custom%20Plan%Inquiry
