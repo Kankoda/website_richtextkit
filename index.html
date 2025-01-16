@@ -1,0 +1,61 @@
+---
+id: home
+title: Home
+layout: default
+
+image:  /assets/headers/icon.jpg
+
+hero: /assets/devices.png
+hero-title: RichTextKit
+
+description: Build rich text experiences using Swift & SwiftUI
+---
+
+<div class="home-content paper">
+  
+    <section>
+      <p>
+        TBD....
+      </p>
+    </section>
+  
+    <hr />
+  
+    <section>
+      <h2>Explore</h2>
+      {% include kankoda/grid/features.html features=site.data.home-features %}
+    </section>
+  
+    <hr />
+  
+    <section>
+      <h2>Blog</h2>
+      <p> 
+        Follow the <a href="/blog">{{site.title}} blog</a> for news & updates.
+      </p>
+      <div class="grid home blog list">
+        {% for post in site.posts limit:2 %}
+        <div>
+          {% include kankoda/blog/list-item.html post=posts.first tag-limit=1 %}
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+  
+    <hr />
+    <!--
+    <section>
+      <div class="grid home centered">
+        <div class="column">
+          {% include kankoda/titles/section.html title="Social Media" %}
+          <p>Follow KeyboardKit on <a href="{{site.urls.bluesky}}">Bluesky</a>, <a href="{{site.urls.mastodon}}">Mastodon</a>, and <a href="{{site.urls.twitter}}">X</a> for the latest news.</p>
+        </div>
+        <div class="column">
+          {% include kankoda/titles/section.html title="Newsletter" %}
+          <p>Subscribe to <a href="{{site.urls.newsletter}}">the {{site.title}} newsletter</a> for periodic updates.</p>
+          {% include kankoda/widgets/newsletter.html %}
+        </div>
+      </div>
+    </section>
+  </div>
+  -->
