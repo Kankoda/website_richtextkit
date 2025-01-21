@@ -24,6 +24,7 @@ twitter_username: richtextkitsdk
 assets: /assets/
 header_image: /assets/icon/icon-header.png
 header_image_type: icon
+header_title: RichTextKit
 
 urls:
   email:      mailto:info@richtextkit.com
