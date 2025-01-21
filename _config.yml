@@ -31,10 +31,10 @@ urls:
 
   blog:       /blog
   bluesky:    https://bsky.app/profile/richtextkit.bsky.social
-  docs:       https://kankoda.github.io/RichTextKit/
-  docs_pro:   https://kankoda.github.io/RichTextKit/
-  github:     https://github.com/kankoda/richtextkit
-  github_pro: https://github.com/kankoda/richtextkitpro
+  docs:       https://danielsaidi.github.io/RichTextKit/
+  # docs_pro:   https://kankoda.github.io/RichTextKit/
+  github:     https://github.com/danielsaidi/richtextkit
+  # github_pro: https://github.com/kankoda/richtextkitpro
   mastodon:   https://techhub.social/@richtextkit
   twitter:    https://twitter.com/richtextkitsdk
 
@@ -43,10 +43,12 @@ urls:
 
 header_pages:
   - pages/home.md
+  - pages/github.md
   - pages/blog.md
 
 footer_sitemap:
   - pages/home.md
+  - pages/about.md
   - pages/blog.md
 
 collections_dir: collections

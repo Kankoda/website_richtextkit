@@ -1,4 +1,14 @@
 - title: About
   url: /about
   image: /assets/heros/icon.png
-  text: TBD
+  text: RichTextKit lets you create rich texxt-based apps in SwiftUI.
+
+- title: Open-Source
+  url: https://github.com/danielsaidi/richtextkit
+  image: /assets/heros/github.png
+  text: RichTextKit text is open-source and completely free.
+
+- title: Documentation
+  url: https://danielsaidi.github.io/RichTextKit/
+  image: /assets/heros/documentation.png
+  text: Check out the online documentation for more details.
