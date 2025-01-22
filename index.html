@@ -5,7 +5,7 @@ layout: default
 
 image:  /assets/headers/icon.jpg
 
-hero: /assets/devices.png
+hero-image: /assets/devices.png
 hero-title: Build rich text experiences with Swift & SwiftUI 
 
 description: RichTextKit makes it easy to use rich text on all major Apple platforms.
@@ -27,6 +27,26 @@ description: RichTextKit makes it easy to use rich text on all major Apple platf
     </section>
   
     <hr />
+
+    <section>
+      <div class="grid home centered">
+        <div class="column">
+          {% include kankoda/titles/section.html title="Social Media" %}
+          <p>Follow Kankoda on <a href="{{site.urls.bluesky}}">Bluesky</a>, and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.</p>
+          <div>
+            {% include kankoda/buttons/social.html name="bluesky" href=site.urls.bluesky class="scale" %}
+            {% include kankoda/buttons/social.html name="mastodon" href=site.urls.mastodon class="scale" %}  
+          </div>
+        </div>
+        <div class="column">
+          {% include kankoda/titles/section.html title="Newsletter" %}
+          <p>Subscribe to <a href="{{site.urls.newsletter}}">the Kankoda newsletter</a> for periodic updates.</p>
+          {% include kankoda/widgets/newsletter.html %}
+        </div>
+      </div>
+    </section>
+
+    <hr />
   
     <section>
       <h2>Blog</h2>
@@ -41,21 +61,3 @@ description: RichTextKit makes it easy to use rich text on all major Apple platf
         {% endfor %}
       </div>
     </section>
-  
-    <hr />
-    <!--
-    <section>
-      <div class="grid home centered">
-        <div class="column">
-          {% include kankoda/titles/section.html title="Social Media" %}
-          <p>Follow KeyboardKit on <a href="{{site.urls.bluesky}}">Bluesky</a>, <a href="{{site.urls.mastodon}}">Mastodon</a>, and <a href="{{site.urls.twitter}}">X</a> for the latest news.</p>
-        </div>
-        <div class="column">
-          {% include kankoda/titles/section.html title="Newsletter" %}
-          <p>Subscribe to <a href="{{site.urls.newsletter}}">the {{site.title}} newsletter</a> for periodic updates.</p>
-          {% include kankoda/widgets/newsletter.html %}
-        </div>
-      </div>
-    </section>
-  </div>
-  -->
